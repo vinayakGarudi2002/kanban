@@ -1,0 +1,45 @@
+.ticket-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  background-color: #fff;
+}
+
+.ticket-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-status {
+  position: relative;
+  margin-left: 5px; /* Adjusted margin for positioning */
+}
+
+.green-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+  position: absolute;
+  top: -5px;
+  left: -5px; /* Updated position to the left */
+}
+
+.ticket-id {
+  font-weight: bold;
+  margin-top: 10px; /* Adjusted margin for positioning */
+}
+
+.ticket-title {
+  margin-bottom: 10px; /* Adjusted margin for positioning */
+}
+
+.ticket-tag {
+  color: gray;
+}
